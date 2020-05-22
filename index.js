@@ -26,6 +26,10 @@ const addTasks = () => {
   }
 };
 
+const removeBtn = () => {
+  addButtonElm.remove();
+}
+
 const addButtonElm = document.querySelector('.btn-add')
 addButtonElm.addEventListener('click', addTasks)
 
