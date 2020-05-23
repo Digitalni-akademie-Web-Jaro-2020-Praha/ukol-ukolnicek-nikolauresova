@@ -23,11 +23,7 @@ const addTasks = () => {
   if (inputElm.value != "") {
     tasks.push(inputElm.value)
     updateTasks(tasks)
-  }
-  const removeElm = () => {
-    inputElm.remove();
-  }
-  removeElm()
+  }  
 };
 
 
